@@ -44,6 +44,7 @@ public class LogServiceTest {
         for (String event : events)
             svc.addLog(event, user);
         assertEquals(events.length, svc.getLogs().size());
+        //error arreglado
     }
 
     /**
